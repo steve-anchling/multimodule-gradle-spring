@@ -1,0 +1,14 @@
+plugins {
+    id 'org.springframework.boot' version "${springBootVersion}"
+}
+
+dependencies {
+    implementation project(':common:common-api')
+    implementation project(':common:common-impl')
+    implementation project(':stock-service:stock-service-api')
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    runtimeOnly('com.h2database:h2')
+}

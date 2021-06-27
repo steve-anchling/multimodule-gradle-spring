@@ -1,0 +1,14 @@
+subprojects {
+	apply plugin: 'java'
+
+	group = 'com.techtalksteve.common'
+	version = '0.0.1-SNAPSHOT'
+	sourceCompatibility = "$javaVersion"
+
+	dependencies {
+	}
+
+	test {
+		useJUnitPlatform()
+	}
+}

@@ -1,0 +1,5 @@
+include ':common:common-api'
+include ':common:common-impl'
+
+include ':stock-service:stock-service-api'
+include ':stock-service:stock-service-app'
